@@ -1,6 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
 body {
     margin: 0;
+    padding: 0;
+    background-color: black;
 }
 *, ::before, ::after {
     box-sizing: border-box;
+}
+
+.main {
+    
+}
+#topbar {
+    background: linear-gradient(to right, rgb(108, 169, 255), rgb(72, 72, 255));
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Caveat';
+    font-size: 40px;
 }
