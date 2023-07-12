@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Roboto&display=swap');
 
 body {
     margin: 0;
@@ -28,9 +28,13 @@ body {
     letter-spacing: 2px;
 }
 .topbar-btn > button {
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
-    background-color: inherit;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    padding: 0 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    cursor: pointer;
 }
 .logox {
     color: rgb(255, 106, 72);
@@ -49,4 +53,36 @@ body {
     grid-template-rows: repeat(7, 60px);
     background-color: aliceblue;
     gap: 4px;
+}
+.element {
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto';
+    cursor:cell;
+    transition: 0.05s;
+    border: 1px solid black;
+}
+.element-atomic-details {
+    display: flex;
+    justify-content: space-between;
+}
+.element-atomic-no, .element-atomic-mass {
+    font-size: 11px;
+}
+.element-atomic-symbol {
+    font-size: 25px;
+    align-self: center;
+}
+.element-atomic-name {
+    font-size: 8px;
+    align-self: center;
+}
+
+.element:hover {
+    scale: 180%;
 }
