@@ -3,7 +3,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 *, ::before, ::after {
     box-sizing: border-box;
@@ -12,13 +12,41 @@ body {
 .main {
     
 }
+
+/* Topbar CSS starts */
 #topbar {
-    background: linear-gradient(to right, rgb(108, 169, 255), rgb(72, 72, 255));
+    /* background: linear-gradient(to right, rgb(108, 169, 255), rgb(72, 72, 255)); */
+    background-color: #000000;
     padding: 30px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     height: 100px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: 'Caveat';
     font-size: 40px;
+    letter-spacing: 2px;
+}
+.topbar-btn > button {
+    color: white;
+    border: none;
+    background-color: inherit;
+}
+.logox {
+    color: rgb(255, 106, 72);
+}
+/* Topbar CSS ends */
+
+.periodic-table-container {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 60px);
+    grid-template-rows: repeat(7, 60px);
+    background-color: aliceblue;
+    gap: 4px;
 }
