@@ -1,7 +1,7 @@
 <div class="element element1">
     <div class="element-atomic-details">
         <div class="element-atomic-no">1</div>
-        <div class="element-atomic-mass">1.00795</div>
+        <div class="element-atomic-mass">1.008</div>
     </div>
     <div class="element-atomic-symbol">H</div>
     <div class="element-atomic-name">Hydrogen</div>
@@ -10,7 +10,7 @@
 <div class="element element2">
     <div class="element-atomic-details">
         <div class="element-atomic-no">2</div>
-        <div class="element-atomic-mass">4.0026</div>
+        <div class="element-atomic-mass">4.003</div>
     </div>
     <div class="element-atomic-symbol">He</div>
     <div class="element-atomic-name">Helium</div>
@@ -19,7 +19,7 @@
 <div class="element element3">
     <div class="element-atomic-details">
         <div class="element-atomic-no">3</div>
-        <div class="element-atomic-mass">6.9412</div>
+        <div class="element-atomic-mass">6.941</div>
     </div>
     <div class="element-atomic-symbol">Li</div>
     <div class="element-atomic-name">Lithium</div>
@@ -28,7 +28,7 @@
 <div class="element element4">
     <div class="element-atomic-details">
         <div class="element-atomic-no">4</div>
-        <div class="element-atomic-mass">9.01218</div>
+        <div class="element-atomic-mass">9.012</div>
     </div>
     <div class="element-atomic-symbol">Be</div>
     <div class="element-atomic-name">Beryllium</div>
@@ -37,7 +37,7 @@
 <div class="element element5">
     <div class="element-atomic-details">
         <div class="element-atomic-no">5</div>
-        <div class="element-atomic-mass">10.8117</div>
+        <div class="element-atomic-mass">10.812</div>
     </div>
     <div class="element-atomic-symbol">B</div>
     <div class="element-atomic-name">Boron</div>
@@ -46,7 +46,7 @@
 <div class="element element6">
     <div class="element-atomic-details">
         <div class="element-atomic-no">6</div>
-        <div class="element-atomic-mass">12.01078</div>
+        <div class="element-atomic-mass">12.011</div>
     </div>
     <div class="element-atomic-symbol">C</div>
     <div class="element-atomic-name">Carbon</div>
@@ -55,7 +55,7 @@
 <div class="element element7">
     <div class="element-atomic-details">
         <div class="element-atomic-no">7</div>
-        <div class="element-atomic-mass">14.00672</div>
+        <div class="element-atomic-mass">14.007</div>
     </div>
     <div class="element-atomic-symbol">N</div>
     <div class="element-atomic-name">Nitrogen</div>
@@ -64,7 +64,7 @@
 <div class="element element8">
     <div class="element-atomic-details">
         <div class="element-atomic-no">8</div>
-        <div class="element-atomic-mass">15.99943</div>
+        <div class="element-atomic-mass">15.999</div>
     </div>
     <div class="element-atomic-symbol">O</div>
     <div class="element-atomic-name">Oxygen</div>
@@ -73,7 +73,7 @@
 <div class="element element9">
     <div class="element-atomic-details">
         <div class="element-atomic-no">9</div>
-        <div class="element-atomic-mass">18.9984</div>
+        <div class="element-atomic-mass">18.998</div>
     </div>
     <div class="element-atomic-symbol">F</div>
     <div class="element-atomic-name">Fluorine</div>
@@ -82,7 +82,7 @@
 <div class="element element10">
     <div class="element-atomic-details">
         <div class="element-atomic-no">10</div>
-        <div class="element-atomic-mass">20.17976</div>
+        <div class="element-atomic-mass">20.18</div>
     </div>
     <div class="element-atomic-symbol">Ne</div>
     <div class="element-atomic-name">Neon</div>
@@ -91,7 +91,7 @@
 <div class="element element11">
     <div class="element-atomic-details">
         <div class="element-atomic-no">11</div>
-        <div class="element-atomic-mass">22.98977</div>
+        <div class="element-atomic-mass">22.99</div>
     </div>
     <div class="element-atomic-symbol">Na</div>
     <div class="element-atomic-name">Sodium</div>
@@ -109,7 +109,7 @@
 <div class="element element13">
     <div class="element-atomic-details">
         <div class="element-atomic-no">13</div>
-        <div class="element-atomic-mass">26.98154</div>
+        <div class="element-atomic-mass">26.982</div>
     </div>
     <div class="element-atomic-symbol">Al</div>
     <div class="element-atomic-name">Aluminium</div>
@@ -118,7 +118,7 @@
 <div class="element element14">
     <div class="element-atomic-details">
         <div class="element-atomic-no">14</div>
-        <div class="element-atomic-mass">28.08553</div>
+        <div class="element-atomic-mass">28.086</div>
     </div>
     <div class="element-atomic-symbol">Si</div>
     <div class="element-atomic-name">Silicon</div>
@@ -127,7 +127,7 @@
 <div class="element element15">
     <div class="element-atomic-details">
         <div class="element-atomic-no">15</div>
-        <div class="element-atomic-mass">30.97376</div>
+        <div class="element-atomic-mass">30.974</div>
     </div>
     <div class="element-atomic-symbol">P</div>
     <div class="element-atomic-name">Phosphorus</div>
@@ -136,7 +136,7 @@
 <div class="element element16">
     <div class="element-atomic-details">
         <div class="element-atomic-no">16</div>
-        <div class="element-atomic-mass">32.0655</div>
+        <div class="element-atomic-mass">32.066</div>
     </div>
     <div class="element-atomic-symbol">S</div>
     <div class="element-atomic-name">Sulfur</div>
@@ -145,7 +145,7 @@
 <div class="element element17">
     <div class="element-atomic-details">
         <div class="element-atomic-no">17</div>
-        <div class="element-atomic-mass">35.4532</div>
+        <div class="element-atomic-mass">35.453</div>
     </div>
     <div class="element-atomic-symbol">Cl</div>
     <div class="element-atomic-name">Chlorine</div>
@@ -154,7 +154,7 @@
 <div class="element element18">
     <div class="element-atomic-details">
         <div class="element-atomic-no">18</div>
-        <div class="element-atomic-mass">39.0983</div>
+        <div class="element-atomic-mass">39.098</div>
     </div>
     <div class="element-atomic-symbol">K</div>
     <div class="element-atomic-name">Argon</div>
@@ -163,7 +163,7 @@
 <div class="element element19">
     <div class="element-atomic-details">
         <div class="element-atomic-no">19</div>
-        <div class="element-atomic-mass">39.9481</div>
+        <div class="element-atomic-mass">39.948</div>
     </div>
     <div class="element-atomic-symbol">Ar</div>
     <div class="element-atomic-name">Potassium</div>
@@ -172,7 +172,7 @@
 <div class="element element20">
     <div class="element-atomic-details">
         <div class="element-atomic-no">20</div>
-        <div class="element-atomic-mass">40.0784</div>
+        <div class="element-atomic-mass">40.078</div>
     </div>
     <div class="element-atomic-symbol">Ca</div>
     <div class="element-atomic-name">Calcium</div>
@@ -181,7 +181,7 @@
 <div class="element element21">
     <div class="element-atomic-details">
         <div class="element-atomic-no">21</div>
-        <div class="element-atomic-mass">44.95591</div>
+        <div class="element-atomic-mass">44.956</div>
     </div>
     <div class="element-atomic-symbol">Sc</div>
     <div class="element-atomic-name">Scandium</div>
@@ -199,7 +199,7 @@
 <div class="element element23">
     <div class="element-atomic-details">
         <div class="element-atomic-no">23</div>
-        <div class="element-atomic-mass">50.9415</div>
+        <div class="element-atomic-mass">50.941</div>
     </div>
     <div class="element-atomic-symbol">V</div>
     <div class="element-atomic-name">Vanadium</div>
@@ -208,7 +208,7 @@
 <div class="element element24">
     <div class="element-atomic-details">
         <div class="element-atomic-no">24</div>
-        <div class="element-atomic-mass">51.9961</div>
+        <div class="element-atomic-mass">51.996</div>
     </div>
     <div class="element-atomic-symbol">Cr</div>
     <div class="element-atomic-name">Chromium</div>
@@ -217,7 +217,7 @@
 <div class="element element25">
     <div class="element-atomic-details">
         <div class="element-atomic-no">25</div>
-        <div class="element-atomic-mass">54.93805</div>
+        <div class="element-atomic-mass">54.938</div>
     </div>
     <div class="element-atomic-symbol">Mn</div>
     <div class="element-atomic-name">Manganese</div>
@@ -235,7 +235,7 @@
 <div class="element element27">
     <div class="element-atomic-details">
         <div class="element-atomic-no">27</div>
-        <div class="element-atomic-mass">58.93319</div>
+        <div class="element-atomic-mass">58.933</div>
     </div>
     <div class="element-atomic-symbol">Co</div>
     <div class="element-atomic-name">Cobalt</div>
@@ -244,7 +244,7 @@
 <div class="element element28">
     <div class="element-atomic-details">
         <div class="element-atomic-no">28</div>
-        <div class="element-atomic-mass">58.6934</div>
+        <div class="element-atomic-mass">58.693</div>
     </div>
     <div class="element-atomic-symbol">Ni</div>
     <div class="element-atomic-name">Nickel</div>
@@ -253,7 +253,7 @@
 <div class="element element29">
     <div class="element-atomic-details">
         <div class="element-atomic-no">29</div>
-        <div class="element-atomic-mass">63.5463</div>
+        <div class="element-atomic-mass">63.546</div>
     </div>
     <div class="element-atomic-symbol">Cu</div>
     <div class="element-atomic-name">Copper</div>
@@ -289,7 +289,7 @@
 <div class="element element33">
     <div class="element-atomic-details">
         <div class="element-atomic-no">33</div>
-        <div class="element-atomic-mass">74.9216</div>
+        <div class="element-atomic-mass">74.922</div>
     </div>
     <div class="element-atomic-symbol">As</div>
     <div class="element-atomic-name">Arsenic</div>
@@ -316,7 +316,7 @@
 <div class="element element36">
     <div class="element-atomic-details">
         <div class="element-atomic-no">36</div>
-        <div class="element-atomic-mass">83.7982</div>
+        <div class="element-atomic-mass">83.798</div>
     </div>
     <div class="element-atomic-symbol">Kr</div>
     <div class="element-atomic-name">Krypton</div>
@@ -325,7 +325,7 @@
 <div class="element element37">
     <div class="element-atomic-details">
         <div class="element-atomic-no">37</div>
-        <div class="element-atomic-mass">85.46783</div>
+        <div class="element-atomic-mass">85.468</div>
     </div>
     <div class="element-atomic-symbol">Rb</div>
     <div class="element-atomic-name">Rubidium</div>
@@ -343,7 +343,7 @@
 <div class="element element39">
     <div class="element-atomic-details">
         <div class="element-atomic-no">39</div>
-        <div class="element-atomic-mass">88.90585</div>
+        <div class="element-atomic-mass">88.906</div>
     </div>
     <div class="element-atomic-symbol">Y</div>
     <div class="element-atomic-name">Yttrium</div>
@@ -352,7 +352,7 @@
 <div class="element element40">
     <div class="element-atomic-details">
         <div class="element-atomic-no">40</div>
-        <div class="element-atomic-mass">91.2242</div>
+        <div class="element-atomic-mass">91.224</div>
     </div>
     <div class="element-atomic-symbol">Zr</div>
     <div class="element-atomic-name">Zirconium</div>
@@ -415,7 +415,7 @@
 <div class="element element47">
     <div class="element-atomic-details">
         <div class="element-atomic-no">47</div>
-        <div class="element-atomic-mass">107.86822</div>
+        <div class="element-atomic-mass">107.868</div>
     </div>
     <div class="element-atomic-symbol">Ag</div>
     <div class="element-atomic-name">Silver</div>
@@ -424,7 +424,7 @@
 <div class="element element48">
     <div class="element-atomic-details">
         <div class="element-atomic-no">48</div>
-        <div class="element-atomic-mass">112.4118</div>
+        <div class="element-atomic-mass">112.412</div>
     </div>
     <div class="element-atomic-symbol">Cd</div>
     <div class="element-atomic-name">Cadmium</div>
@@ -442,7 +442,7 @@
 <div class="element element50">
     <div class="element-atomic-details">
         <div class="element-atomic-no">50</div>
-        <div class="element-atomic-mass">118.7107</div>
+        <div class="element-atomic-mass">118.711</div>
     </div>
     <div class="element-atomic-symbol">Sn</div>
     <div class="element-atomic-name">Tin</div>
@@ -451,7 +451,7 @@
 <div class="element element51">
     <div class="element-atomic-details">
         <div class="element-atomic-no">51</div>
-        <div class="element-atomic-mass">121.7601</div>
+        <div class="element-atomic-mass">121.76</div>
     </div>
     <div class="element-atomic-symbol">Sb</div>
     <div class="element-atomic-name">Antimony</div>
@@ -478,7 +478,7 @@
 <div class="element element54">
     <div class="element-atomic-details">
         <div class="element-atomic-no">54</div>
-        <div class="element-atomic-mass">131.2936</div>
+        <div class="element-atomic-mass">131.294</div>
     </div>
     <div class="element-atomic-symbol">Xe</div>
     <div class="element-atomic-name">Xenon</div>
@@ -487,7 +487,7 @@
 <div class="element element55">
     <div class="element-atomic-details">
         <div class="element-atomic-no">55</div>
-        <div class="element-atomic-mass">132.90545</div>
+        <div class="element-atomic-mass">132.905</div>
     </div>
     <div class="element-atomic-symbol">Cs</div>
     <div class="element-atomic-name">Cesium</div>
@@ -505,7 +505,7 @@
 <div class="element element57">
     <div class="element-atomic-details">
         <div class="element-atomic-no">57</div>
-        <div class="element-atomic-mass">138.90548</div>
+        <div class="element-atomic-mass">138.905</div>
     </div>
     <div class="element-atomic-symbol">La</div>
     <div class="element-atomic-name">Lanthanum</div>
@@ -514,7 +514,7 @@
 <div class="element element58">
     <div class="element-atomic-details">
         <div class="element-atomic-no">58</div>
-        <div class="element-atomic-mass">140.1161</div>
+        <div class="element-atomic-mass">140.116</div>
     </div>
     <div class="element-atomic-symbol">Ce</div>
     <div class="element-atomic-name">Cerium</div>
@@ -523,7 +523,7 @@
 <div class="element element59">
     <div class="element-atomic-details">
         <div class="element-atomic-no">59</div>
-        <div class="element-atomic-mass">140.90765</div>
+        <div class="element-atomic-mass">140.908</div>
     </div>
     <div class="element-atomic-symbol">Pr</div>
     <div class="element-atomic-name">Praseodymium</div>
@@ -532,7 +532,7 @@
 <div class="element element60">
     <div class="element-atomic-details">
         <div class="element-atomic-no">60</div>
-        <div class="element-atomic-mass">144.2423</div>
+        <div class="element-atomic-mass">144.242</div>
     </div>
     <div class="element-atomic-symbol">Nd</div>
     <div class="element-atomic-name">Neodymium</div>
@@ -559,7 +559,7 @@
 <div class="element element63">
     <div class="element-atomic-details">
         <div class="element-atomic-no">63</div>
-        <div class="element-atomic-mass">151.9641</div>
+        <div class="element-atomic-mass">151.964</div>
     </div>
     <div class="element-atomic-symbol">Eu</div>
     <div class="element-atomic-name">Europium</div>
@@ -577,7 +577,7 @@
 <div class="element element65">
     <div class="element-atomic-details">
         <div class="element-atomic-no">65</div>
-        <div class="element-atomic-mass">158.92535</div>
+        <div class="element-atomic-mass">158.925</div>
     </div>
     <div class="element-atomic-symbol">Tb</div>
     <div class="element-atomic-name">Terbium</div>
@@ -586,7 +586,7 @@
 <div class="element element66">
     <div class="element-atomic-details">
         <div class="element-atomic-no">66</div>
-        <div class="element-atomic-mass">162.5001</div>
+        <div class="element-atomic-mass">162.5</div>
     </div>
     <div class="element-atomic-symbol">Dy</div>
     <div class="element-atomic-name">Dysprosium</div>
@@ -604,7 +604,7 @@
 <div class="element element68">
     <div class="element-atomic-details">
         <div class="element-atomic-no">68</div>
-        <div class="element-atomic-mass">167.2593</div>
+        <div class="element-atomic-mass">167.259</div>
     </div>
     <div class="element-atomic-symbol">Er</div>
     <div class="element-atomic-name">Erbium</div>
@@ -613,7 +613,7 @@
 <div class="element element69">
     <div class="element-atomic-details">
         <div class="element-atomic-no">69</div>
-        <div class="element-atomic-mass">168.93421</div>
+        <div class="element-atomic-mass">168.934</div>
     </div>
     <div class="element-atomic-symbol">Tm</div>
     <div class="element-atomic-name">Thulium</div>
@@ -631,7 +631,7 @@
 <div class="element element71">
     <div class="element-atomic-details">
         <div class="element-atomic-no">71</div>
-        <div class="element-atomic-mass">174.9671</div>
+        <div class="element-atomic-mass">174.967</div>
     </div>
     <div class="element-atomic-symbol">Lu</div>
     <div class="element-atomic-name">Lutetium</div>
@@ -649,7 +649,7 @@
 <div class="element element73">
     <div class="element-atomic-details">
         <div class="element-atomic-no">73</div>
-        <div class="element-atomic-mass">180.94788</div>
+        <div class="element-atomic-mass">180.948</div>
     </div>
     <div class="element-atomic-symbol">Ta</div>
     <div class="element-atomic-name">Tantalum</div>
@@ -703,7 +703,7 @@
 <div class="element element79">
     <div class="element-atomic-details">
         <div class="element-atomic-no">79</div>
-        <div class="element-atomic-mass">196.96657</div>
+        <div class="element-atomic-mass">196.967</div>
     </div>
     <div class="element-atomic-symbol">Au</div>
     <div class="element-atomic-name">Gold</div>
@@ -721,7 +721,7 @@
 <div class="element element81">
     <div class="element-atomic-details">
         <div class="element-atomic-no">81</div>
-        <div class="element-atomic-mass">204.3833</div>
+        <div class="element-atomic-mass">204.383</div>
     </div>
     <div class="element-atomic-symbol">Tl</div>
     <div class="element-atomic-name">Thallium</div>
@@ -739,7 +739,7 @@
 <div class="element element83">
     <div class="element-atomic-details">
         <div class="element-atomic-no">83</div>
-        <div class="element-atomic-mass">208.9804</div>
+        <div class="element-atomic-mass">208.98</div>
     </div>
     <div class="element-atomic-symbol">Bi</div>
     <div class="element-atomic-name">Bismuth</div>
@@ -802,7 +802,7 @@
 <div class="element element90">
     <div class="element-atomic-details">
         <div class="element-atomic-no">90</div>
-        <div class="element-atomic-mass">232.03806</div>
+        <div class="element-atomic-mass">232.038</div>
     </div>
     <div class="element-atomic-symbol">Th</div>
     <div class="element-atomic-name">Thorium</div>
@@ -811,7 +811,7 @@
 <div class="element element91">
     <div class="element-atomic-details">
         <div class="element-atomic-no">91</div>
-        <div class="element-atomic-mass">231.03588</div>
+        <div class="element-atomic-mass">231.036</div>
     </div>
     <div class="element-atomic-symbol">Pa</div>
     <div class="element-atomic-name">Protactinium</div>
@@ -820,7 +820,7 @@
 <div class="element element92">
     <div class="element-atomic-details">
         <div class="element-atomic-no">92</div>
-        <div class="element-atomic-mass">238.02891</div>
+        <div class="element-atomic-mass">238.029</div>
     </div>
     <div class="element-atomic-symbol">U</div>
     <div class="element-atomic-name">Uranium</div>

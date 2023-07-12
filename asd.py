@@ -12,7 +12,7 @@ for i in range(1,119):
     <div class="element-atomic-symbol">{}</div>
     <div class="element-atomic-name">{}</div>
 </div>\n
-'''.format(i,i,round(atm_mass[i-1],5),atm_sym[i-1],ele[i-1])
+'''.format(i,i,round(atm_mass[i-1],3),atm_sym[i-1],ele[i-1])
 # print(x)
 with open("elements.txt","w") as f:
     f.write(x)
