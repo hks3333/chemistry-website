@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+body{
+    background-color: #bbbbbb;
+    margin: 0;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+#topbar {
+    /* background: linear-gradient(to right, rgb(108, 169, 255), rgb(72, 72, 255)); */
+    background-color: #000000;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Caveat';
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.topbar-btn > button {
+    color: white;
+    border: none;
+    background-color: inherit;
+}
+.logox {
+    color: rgb(255, 106, 72);
+}
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20vh;
+}
+.image{
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+.scroll_button {
+    height: 110px;
+    width: 110px;
+    background-color: #bbbbbb;
+    border-radius: 50%;
+    border: 3px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.scroll_button:hover{
+    background-color:#bbbbbb;
+    transition: 0.5s;
+    height: 130px;
+    width: 130px; 
+}
+
+.scroll_button:hover .image {
+    transform: rotate(180deg) translate(0px,-10px);
+}
+.divider{
+    margin-top: 20vh;
+}
