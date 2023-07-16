@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body{
+    margin: 0;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+/* Topbar CSS starts */
+#topbar{
+    /* background: linear-gradient(to right, rgb(108, 169, 255), rgb(72, 72, 255)); */
+    background-color: #000000;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: 'Caveat';
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.topbar-btn > button {
+    color: white;
+    border: none;
+    background-color: inherit;
+} 
+.logox {
+    color: rgb(255, 106, 72);
+}
+/* Topbar CSS ends */
+#setup{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(200px, 1fr));
+    grid-template-rows: 300px 100px 100px;
+    gap: 2px;
+}
+#setup > div{
+    background-color: aquamarine;
+}
+.ele1
+{
+    background-color: aqua;
+    grid-row: 1/4;
+} 
+
+.ele3 {
+    grid-row: 1/ 3; 
+    background-color: blue;
+  }
+
+.ele2
+{
+    grid-row: 1/3;
+}
