@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="evolution.css">
   <title>Evolution of Periodic Table</title>
+  <script src="evolution.js"></script>
 </head>
 <body>
   <section id="topbar">
@@ -15,16 +16,31 @@
     </div>
   </section>
 
-  <div class="container">
+
+
+
+  <div class="container-head">
     <h2>Evolution</h2>
-    <div class="button-container">
-      <button class="scroll_button">
+    <div class="button-container" onclick="enableScroll">
+      <button id = "scrollButton" class="scroll_button">
         <svg class="image" xmlns="http://www.w3.org/2000/svg" width="20" height="50" style=""><g fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M10 7.875c-1.975 13.446 1.001 27.03-.5 40.5M3.236 11.107c3.721-2.325 4.349-6.603 7.402-9.481 1.046 3.027 3.442 9.07 6.125 11.113" class="teNVgDdo_0"></path></g></svg>
     </button>
     </div>
   </div>
-  <div class="divider">
-    <svg class="div_image" xmlns="http://www.w3.org/2000/svg" width="20" height="50" style=""><g fill="none" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"><path d="M10 7.875c-1.975 13.446 1.001 27.03-.5 40.5M3.236 11.107c3.721-2.325 4.349-6.603 7.402-9.481 1.046 3.027 3.442 9.07 6.125 11.113" class="teNVgDdo_0"></path></g></svg>
+  <div id = "targetDiv" class="timeline">
+    <div class="container left">
+      <div class="content">
+        <h2>1649</h2>
+        <img src="henn (2).jpg" style="border-radius: 50%;height: 20vh;width: 20vh;"></img>
+        <p>Hennig Brand discovered Phosphorus..</p>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2>1829</h2>
+        <p>Johann Dobereiner discovered the halogen triad and the alkali metal triad.</p>
+      </div>
+    </div>
   </div>
 </body>
 </html>
