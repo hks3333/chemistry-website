@@ -12,7 +12,7 @@ body {
 .ABCD{
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    margin: 20px;
 }
 .equipment-main {
     display: flex;
