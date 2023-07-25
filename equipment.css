@@ -87,12 +87,13 @@ body {
 .content-right {
     flex-direction: row-reverse;
 }
-.content > p {
+
+.content > ul {
     font-family: 'Albert Sans';
     width: 700px;
 }
 
-.img {
+.img > img {
     width: 250px;
 }
 
