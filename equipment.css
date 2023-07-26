@@ -7,6 +7,10 @@ body {
 *, ::before, ::after {
     box-sizing: border-box;
 }
+::selection {
+    background-color: white;
+    color: black;
+}
 /* __________---topbar---_________________________ */
 #topbar {
     position: fixed;
@@ -85,6 +89,9 @@ body {
     font-size: 16px;
     margin-bottom: -10px;
 }
+.TABLE-OF-CONTENTS > h3 {
+    margin-bottom: 30px;
+}
 .TABLE-OF-CONTENTS > ul > li > a {
     text-decoration: none;
     text-transform: capitalize;
@@ -101,7 +108,7 @@ body {
 #Timepass{
     height: 80px;
 }
-.content{
+.content{ 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
