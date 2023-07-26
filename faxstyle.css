@@ -6,8 +6,7 @@ body{
     box-sizing: border-box;
 }
 /* Topbar CSS starts */
-#topbar{
-    /* background: linear-gradient(to right, rgb(108, 169, 255), rgb(72, 72, 255)); */
+#topbar {
     background-color: #000000;
     padding: 30px;
     display: flex;
@@ -20,42 +19,62 @@ body{
     letter-spacing: 2px;
 }
 .topbar-btn > button {
-    color: white;
+    color: rgb(0, 0, 0);
     border: none;
-    background-color: inherit;
-} 
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    padding: 0 10px;
+    font-family: 'Roboto';
+    font-size: 15px;
+    cursor: pointer;
+}
 .logox {
     color: rgb(255, 106, 72);
 }
-/* Topbar CSS ends */
+    /*Topbar ends*/
+
+
 #setup{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr));
-    grid-template-rows: 300px 100px 100px;
-    gap: 2px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 53, 52);
 }
-
-.ele1
+#mid
 {
-    background-color: aqua;
-    grid-row: 1/4;
-} 
+    display: flex;
+    flex-direction: column;
+    padding-top: 2px;   
+    background-color:rgb(136, 170, 150);
+    align-items: center;
+    width: 800px;
+}
 
-.ele3 {
-    grid-row: 1/ 3; 
-    background-color: blue;
-  }
-
-.ele2
+#left
 {
-    background-color: red;
-    grid-row: 1/2;
+    background-color: rgb(56, 62, 62);
+    
 }
-.ele4{
-    background-color: aquamarine;
+#right
+{
+    background-color: rgb(56, 62, 62);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap:10px;
+    height: 100vh;
 }
-.ele5{
-    background-color: chocolate;
+.ele
+{
+    padding-bottom: 20px;
 }
-
+.ele >img{
+    width: 450px;
+    max-height: 600 px;
+}
+#right>a>img
+{
+    border-radius: 50%; 
+    width: 40px;
+}
