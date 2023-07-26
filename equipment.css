@@ -1,81 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&family=Roboto&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
 body {
     margin: 0;
+    background-color: rgb(0, 0, 0);
 }
-
-*,
-::before,
-::after {
+*, ::before, ::after {
     box-sizing: border-box;
 }
-.ABCD{
-    display: flex;
-    flex-direction: row;
-    margin-left: 20px;
-}
-.equipment-main {
-    display: flex;
-}
-
-.BEAKER:hover {
-    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-}
-
-.BEAKER {
-    padding-bottom: 5px;
-}
-
-.TABLE-OF-CONTENTS {
-    margin-left: 5px;
-    margin-top: 2px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 5px;
-    padding-right: 10px;
-    padding-top: 5px;
-    width: max-content;
-    border: 2px solid black;
-    height: 100vh;
-    justify-content: left;
-}
-
-.img {
-    border: 10px;
-    margin-inline: 10px;
-    display: flex;
-    flex-direction: column;
-    padding-top: 20px;
-    padding-left: 20px;
-    width: 150px;
-    height: 150px;
-}
-
-.all-contents {
-    display: flex;
-    flex-direction: column;
-}
-
+/* __________---topbar---_________________________ */
 #topbar {
-    background: linear-gradient(to right, rgb(108, 169, 255), rgb(72, 72, 255));
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
     padding: 30px;
     display: flex;
     align-items: center;
-    height: 100px;
-    color: rgb(0, 0, 0);
-    font-family: 'Caveat';
+    justify-content: space-between;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Share Tech Mono';
     font-size: 40px;
+    letter-spacing: 2px;
 }
-
-.topbar-btn>button {
-    color: white;
+.topbar-btn {
+    display: flex;
+    align-items: center;
+}
+.topbar-a {
+    transition: 0.5s;
+    color: rgb(171, 171, 171);
     border: none;
-    background-color: inherit;
+    padding: 0 25px 0 8px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-left: 2px solid white;
+}
+.topbar-a-1 {
+    color: white;
+    cursor: not-allowed;
+}
+.topbar-btn > a:hover {
+    color: #ffffff;
+}
+.logo {
+    margin: 0;
+}
+.logo > span {
+    color: #4583ff;
+}
+/* _____topbar end_______________________________ */
+
+.equipment-main {
+    display: flex;
+    color: white;
 }
 
-.logox {
-    color: rgb(255, 106, 72);
+.TABLE-OF-CONTENTS {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 40px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 310px;
+    height: 85vh;
+    margin-left: 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(255, 255, 255);
 }
+.TABLE-OF-CONTENTS > h3, .TABLE-OF-CONTENTS > h5 {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    margin-left: 25px;
+    font-size: 20px;
+}
+.TABLE-OF-CONTENTS > h5 {
+    font-size: 16px;
+    margin-bottom: -10px;
+}
+.TABLE-OF-CONTENTS > ul > li > a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: 'roboto';
+    color: #4583ff;
+}
+.all-contents {
+    display: flex;
+    flex-direction: column;
+    margin-left: 320px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+#Timepass{
+    height: 80px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    margin: 20px 20px 0 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+}
+.content-right {
+    flex-direction: row-reverse;
+}
+
+.content > ul {
+    font-family: 'Albert Sans';
+    width: 700px;
+}
+
+.img > img {
+    width: 250px;
+}
+
+
