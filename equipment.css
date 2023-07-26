@@ -71,8 +71,10 @@ body {
     display: flex;
     flex-direction: column;
     margin-left: 320px;
-    margin-top: 80px;
     width: 100%;
+}
+.Timepass{
+    height: 80px;
 }
 .content{
     display: flex;
@@ -80,19 +82,20 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px 20px;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 10px 20px;
     border-radius: 20px;
     border: 2px solid black;
 }
 .content-right {
     flex-direction: row-reverse;
 }
-.content > p {
+
+.content > ul {
     font-family: 'Albert Sans';
     width: 700px;
 }
 
-.img {
+.img > img {
     width: 250px;
 }
 
