@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&family=Roboto&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
+
 body {
     margin: 0;
     background-color: rgb(0, 0, 0);
 }
-*, ::before, ::after {
+
+*,
+::before,
+::after {
     box-sizing: border-box;
 }
-::selection {
-    background-color: white;
-    color: black;
-}
+
 /* __________---topbar---_________________________ */
 #topbar {
     position: fixed;
@@ -27,10 +28,12 @@ body {
     font-size: 40px;
     letter-spacing: 2px;
 }
+
 .topbar-btn {
     display: flex;
     align-items: center;
 }
+
 .topbar-a {
     transition: 0.5s;
     color: rgb(171, 171, 171);
@@ -42,19 +45,24 @@ body {
     text-decoration: none;
     border-left: 2px solid white;
 }
-.topbar-a-1 {
+
+.topbar-a-2 {
     color: white;
     cursor: not-allowed;
 }
-.topbar-btn > a:hover {
+
+.topbar-btn>a:hover {
     color: #ffffff;
 }
+
 .logo {
     margin: 0;
 }
-.logo > span {
+
+.logo>span {
     color: #4583ff;
 }
+
 /* _____topbar end_______________________________ */
 
 .equipment-main {
@@ -78,26 +86,28 @@ body {
     border-radius: 30px;
     border: 2px solid rgb(255, 255, 255);
 }
-.TABLE-OF-CONTENTS > h3, .TABLE-OF-CONTENTS > h5 {
+
+.TABLE-OF-CONTENTS>h3,
+.TABLE-OF-CONTENTS>h5 {
     font-family: 'Roboto';
     margin: 0;
     padding: 0;
     margin-left: 25px;
     font-size: 20px;
 }
-.TABLE-OF-CONTENTS > h5 {
+
+.TABLE-OF-CONTENTS>h5 {
     font-size: 16px;
     margin-bottom: -10px;
 }
-.TABLE-OF-CONTENTS > h3 {
-    margin-bottom: 30px;
-}
-.TABLE-OF-CONTENTS > ul > li > a {
+
+.TABLE-OF-CONTENTS>ul>li>a {
     text-decoration: none;
     text-transform: capitalize;
     font-family: 'roboto';
     color: #4583ff;
 }
+
 .all-contents {
     display: flex;
     flex-direction: column;
@@ -105,10 +115,12 @@ body {
     width: 100%;
     margin-bottom: 20px;
 }
-#Timepass{
+
+#Timepass {
     height: 80px;
 }
-.content{ 
+
+.content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -118,17 +130,16 @@ body {
     border-radius: 20px;
     border: 2px solid rgb(255, 255, 255);
 }
+
 .content-right {
     flex-direction: row-reverse;
 }
 
-.content > ul {
+.content>ul {
     font-family: 'Albert Sans';
     width: 700px;
 }
 
-.img > img {
+.img>img {
     width: 250px;
 }
-
-
