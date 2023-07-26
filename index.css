@@ -8,42 +8,65 @@ body {
 *, ::before, ::after {
     box-sizing: border-box;
 }
+::selection {
+    background-color: white;
+    color: black;
+}
+/* Topbar CSS starts */
+#topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Share Tech Mono';
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+.topbar-btn {
+    display: flex;
+    align-items: center;
+}
+.topbar-a {
+    transition: 0.5s;
+    color: rgb(171, 171, 171);
+    border: none;
+    padding: 0 25px 0 8px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border-left: 2px solid white;
+}
+.topbar-a-1 {
+    color: white;
+    cursor: not-allowed;
+}
+.topbar-btn > a:hover {
+    color: #ffffff;
+}
+.logo {
+    margin: 0;
+}
+.logo > span {
+    color: #4583ff;
+}
+
+/* Topbar CSS ends */
 
 .main {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-/* Topbar CSS starts */
-#topbar {
-    background-color: #000000;
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    color: rgb(255, 255, 255);
-    font-family: 'Share Tech Mono';
-    font-size: 40px;
-    letter-spacing: 2px;
-}
-.topbar-btn > button {
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    height: 50px;
-    padding: 0 10px;
-    font-family: 'Roboto';
-    font-size: 15px;
-    cursor: pointer;
-}
-
-/* Topbar CSS ends */
-
 .periodic-table-container {
-    height: 100vh;
+    margin-top: 80px;
+    height: 88vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,22 +75,22 @@ body {
     display: grid;
     grid-template-columns: repeat(18, 60px);
     grid-template-rows: repeat(10, 60px);
-    gap: 3px;
+    gap: 4px;
 }
 .element {
     width: 100%;
     height: 100%;
     padding: 3px;
-    background-color: #F9C22E;
-    color: rgb(0, 0, 0);
+    background-color: #EAEFBD;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Roboto';
     cursor:pointer;
-    transition: 0.05s;
-    border: 1px solid black;
-    border-radius: 0px;
+    transition: 0.1s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .element-atomic-details {
     display: flex;
@@ -87,8 +110,26 @@ body {
 
 .element:hover {
     scale: 180%;
+    z-index: 2;
+    backdrop-filter: blur(10px);
 }
 
 .element2 {grid-column: 18 / 19;}
 .element5, .element13 {grid-column: 13 /14;}
 .element58, .element90 {grid-column: 4 / 5;}
+
+.elements-wiki {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+}
+.elements-wiki > iframe {
+    width: 800px;
+    height: 500px;
+}
+.elements-wiki.active {
+    display: block;
+}
