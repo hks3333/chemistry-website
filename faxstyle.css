@@ -1,63 +1,92 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
+
 body{
     margin: 0;
+    background-color: #000000;
+    color: #ffffff;
 }
 *, ::before, ::after {
     box-sizing: border-box;
 }
 /* Topbar CSS starts */
 #topbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
     background-color: #000000;
     padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 100px;
+    height: 80px;
     color: rgb(255, 255, 255);
-    font-family: 'Caveat';
+    font-family: 'Share Tech Mono';
     font-size: 40px;
     letter-spacing: 2px;
+    z-index: 99;
 }
-.topbar-btn > button {
-    color: rgb(0, 0, 0);
+.topbar-btn {
+    display: flex;
+    align-items: center;
+}
+.topbar-a {
+    transition: 0.5s;
+    color: rgb(171, 171, 171);
     border: none;
-    border-radius: 10px;
-    background-color: rgb(255, 255, 255);
-    height: 50px;
-    padding: 0 10px;
+    padding: 0 25px 0 8px;
     font-family: 'Roboto';
-    font-size: 15px;
+    font-size: 16px;
     cursor: pointer;
+    text-decoration: none;
+    border-left: 2px solid #4583ff;;
 }
-.logox {
-    color: rgb(255, 106, 72);
+.topbar-a-1 {
+    color: white;
+    cursor: not-allowed;
 }
+.topbar-btn > a:hover {
+    color: #ffffff;
+}
+.logo {
+    margin: 0;
+}
+.logo > span {
+    color: #4583ff;
+}
+
     /*Topbar ends*/
 
 
-#setup{
+#main{
+    margin-top: 80px;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(51, 53, 52);
+    
 }
 #mid
 {
+    margin-top: 120px;
     display: flex;
     flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
     padding-top: 2px;   
-    background-color:rgb(136, 170, 150);
     align-items: center;
     width: 800px;
+    z-index: 1;
 }
 
 #left
 {
-    background-color: rgb(56, 62, 62);
+    
     
 }
 #right
 {
-    background-color: rgb(56, 62, 62);
+    
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -72,6 +101,7 @@ body{
 .ele >img{
     width: 450px;
     max-height: 600 px;
+    border: 2px solid #4583ff;;
 }
 #right>a>img
 {
