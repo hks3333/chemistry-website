@@ -42,7 +42,7 @@ body {
     text-decoration: none;
     border-left: 2px solid white;
 }
-.topbar-a-1 {
+.topbar-a-2 {
     color: white;
     cursor: not-allowed;
 }
@@ -73,7 +73,7 @@ body {
     flex-direction: column;
     justify-content: center;
     width: 310px;
-    height: 85vh;
+    height: 65vh;
     margin-left: 10px;
     border-radius: 30px;
     border: 2px solid rgb(255, 255, 255);
