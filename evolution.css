@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 body{
-    background-color: #201f1f;
+    background-color: #131313;
     margin: 0;
 }
 *, ::before, ::after {
@@ -38,9 +38,9 @@ body{
   text-decoration: none;
   border-left: 2px solid white;
 }
-.topbar-a-1 {
+.topbar-a-3 {
   color: white;
-  cursor: not-allowed;
+  
 }
 .topbar-btn > a:hover {
   color: #ffffff;
