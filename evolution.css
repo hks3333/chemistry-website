@@ -117,6 +117,7 @@ h2{
   
   /* The actual timeline (the vertical ruler) */
   .timeline {
+    padding-top: 80px;
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
