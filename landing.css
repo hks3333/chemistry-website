@@ -18,24 +18,25 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: #000000;
+    background-color: #4583ff;
     padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     font-family: 'Share Tech Mono';
     font-size: 40px;
     letter-spacing: 2px;
+    z-index: 99;
 }
 .topbar-btn {
     display: flex;
     align-items: center;
 }
 .topbar-a {
-    transition: 0.5s;
-    color: rgb(171, 171, 171);
+    transition: 0.3s;
+    color: #000;
     border: none;
     padding: 0 25px 0 8px;
     font-family: 'Roboto';
@@ -44,18 +45,16 @@ body {
     text-decoration: none;
     /* border-left: 2px solid white; */
 }
-.topbar-a-1 {
-    color: white;
-    cursor: default;
-}
+
 .topbar-btn > a:hover {
     color: #ffffff;
 }
 .logo {
     margin: 0;
+    cursor: pointer;
 }
 .logo > span {
-    color: #4583ff;
+    color: #000000;
 }
 
 /* Topbar CSS ends */
@@ -66,17 +65,47 @@ body {
     justify-content: space-between;
     width: 100%;
     height: 70vh;
-    margin-top: 120px;
+    margin-top: 80px;
     font-family: 'Albert sans';
     padding-left: 30px;
     padding-right: 60px;
-    background-color: #4583ff;
+    background-color: rgb(69, 131, 255);
 }
 .landing-1-text > h1 {
     margin: 0;
     padding: 0;
-    font-size: 55px;
+    font-size: 60px;
+}
+.landing-1-text > p {
+    font-size: 18px;
 }
 .landing-1 > img {
-    height: 100%;   
+    height: 90%;   
+}
+
+.landing-2-content {
+    margin-top: 80px;
+    height: 300vh;
+    color: #ffffff;
+    font-family: 'roboto';
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.landing-2-content > button {
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.landing-2-content > button:hover {
+    background-color: #000000;
+    color: white;
 }
