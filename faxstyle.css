@@ -3,7 +3,7 @@
 
 body{
     margin: 0;
-    background-color: #2e2e2e;
+    background-color: #131313;
     color: #ffffff;
 }
 *, ::before, ::after {
@@ -146,6 +146,8 @@ body{
     flex-direction: column;
     padding-top: 40px;
     gap:80px;
+    display: none;
+
 }
 
 .fact
