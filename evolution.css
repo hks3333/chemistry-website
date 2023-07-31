@@ -7,7 +7,7 @@ body{
 *, ::before, ::after {
     box-sizing: border-box;
 }
-#topbar {
+#topbar { 
   position: fixed;
   top: 0;
   width: 100%;
