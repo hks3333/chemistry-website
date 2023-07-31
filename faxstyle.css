@@ -3,7 +3,7 @@
 
 body{
     margin: 0;
-    background-color: #000000;
+    background-color: #2e2e2e;
     color: #ffffff;
 }
 *, ::before, ::after {
@@ -105,9 +105,6 @@ body{
 }
 
 
-
-
-  
 
   .image-container {
     position: relative;
