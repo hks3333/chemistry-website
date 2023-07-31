@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="index.css">
 </head>
 <body>
+  <script src="index.js"></script>
   <div class="main">
     <section id="topbar">
       <div><h3 class="logo">Elemental<span>X</span></h3></div>
@@ -14,22 +15,26 @@
         <a class="topbar-a topbar-a-1">Periodic Table</a>
         <a class="topbar-a topbar-a-2" href="equipment.html">Common Lab Equipments</a>
         <a class="topbar-a topbar-a-3" href="evolution.html">Evolution Of Periodic Table</a>
+        <a class="topbar-a topbar-a-4" href="fax.html">Facts n Memes</a>
       </div>
     </section>
     <div class="elements-wiki">
-      <iframe src="https://en.wikipedia.org/wiki/helium" title="Hydrogen" id="wiki"></iframe>
+      <div class="iframe-container">
+        <img class="xmark" src="x mark.png">
+        <iframe src="https://en.wikipedia.org/wiki/helium" title="Hydrogen" id="wiki"></iframe>
+      </div>
     </div>
     <div class="periodic-table-container">
       <section class="periodic-table" id="periodic-table">
-        <div class="element element1"><div class="element-atomic-details"><div class="element-atomic-no">1</div><div class="element-atomic-mass">1.01</div></div><div class="element-atomic-symbol">H</div><div class="element-atomic-name">Hydrogen</div></div>
-        <div class="element element2"><div class="element-atomic-details"><div class="element-atomic-no">2</div><div class="element-atomic-mass">4.0</div></div><div class="element-atomic-symbol">He</div><div class="element-atomic-name">Helium</div></div>
-        <div class="element element3"><div class="element-atomic-details"><div class="element-atomic-no">3</div><div class="element-atomic-mass">6.94</div></div><div class="element-atomic-symbol">Li</div><div class="element-atomic-name">Lithium</div></div>
-        <div class="element element4"><div class="element-atomic-details"><div class="element-atomic-no">4</div><div class="element-atomic-mass">9.01</div></div><div class="element-atomic-symbol">Be</div><div class="element-atomic-name">Beryllium</div></div>
-        <div class="element element5"><div class="element-atomic-details"><div class="element-atomic-no">5</div><div class="element-atomic-mass">10.81</div></div><div class="element-atomic-symbol">B</div><div class="element-atomic-name">Boron</div></div>
-        <div class="element element6"><div class="element-atomic-details"><div class="element-atomic-no">6</div><div class="element-atomic-mass">12.01</div></div><div class="element-atomic-symbol">C</div><div class="element-atomic-name">Carbon</div></div>
-        <div class="element element7"><div class="element-atomic-details"><div class="element-atomic-no">7</div><div class="element-atomic-mass">14.01</div></div><div class="element-atomic-symbol">N</div><div class="element-atomic-name">Nitrogen</div></div>
-        <div class="element element8"><div class="element-atomic-details"><div class="element-atomic-no">8</div><div class="element-atomic-mass">16.0</div></div><div class="element-atomic-symbol">O</div><div class="element-atomic-name">Oxygen</div></div>
-        <div class="element element9"><div class="element-atomic-details"><div class="element-atomic-no">9</div><div class="element-atomic-mass">19.0</div></div><div class="element-atomic-symbol">F</div><div class="element-atomic-name">Fluorine</div></div>
+        <div class="element element1"> <div class="element-atomic-details"><div class="element-atomic-no">1</div><div class="element-atomic-mass">1.01</div></div><div class="element-atomic-symbol">H</div><div class="element-atomic-name">Hydrogen</div></div>
+        <div class="element element2"> <div class="element-atomic-details"><div class="element-atomic-no">2</div><div class="element-atomic-mass">4.0</div></div><div class="element-atomic-symbol">He</div><div class="element-atomic-name">Helium</div></div>
+        <div class="element element3"> <div class="element-atomic-details"><div class="element-atomic-no">3</div><div class="element-atomic-mass">6.94</div></div><div class="element-atomic-symbol">Li</div><div class="element-atomic-name">Lithium</div></div>
+        <div class="element element4"> <div class="element-atomic-details"><div class="element-atomic-no">4</div><div class="element-atomic-mass">9.01</div></div><div class="element-atomic-symbol">Be</div><div class="element-atomic-name">Beryllium</div></div>
+        <div class="element element5"> <div class="element-atomic-details"><div class="element-atomic-no">5</div><div class="element-atomic-mass">10.81</div></div><div class="element-atomic-symbol">B</div><div class="element-atomic-name">Boron</div></div>
+        <div class="element element6"> <div class="element-atomic-details"><div class="element-atomic-no">6</div><div class="element-atomic-mass">12.01</div></div><div class="element-atomic-symbol">C</div><div class="element-atomic-name">Carbon</div></div>
+        <div class="element element7"> <div class="element-atomic-details"><div class="element-atomic-no">7</div><div class="element-atomic-mass">14.01</div></div><div class="element-atomic-symbol">N</div><div class="element-atomic-name">Nitrogen</div></div>
+        <div class="element element8"> <div class="element-atomic-details"><div class="element-atomic-no">8</div><div class="element-atomic-mass">16.0</div></div><div class="element-atomic-symbol">O</div><div class="element-atomic-name">Oxygen</div></div>
+        <div class="element element9"> <div class="element-atomic-details"><div class="element-atomic-no">9</div><div class="element-atomic-mass">19.0</div></div><div class="element-atomic-symbol">F</div><div class="element-atomic-name">Fluorine</div></div>
         <div class="element element10"><div class="element-atomic-details"><div class="element-atomic-no">10</div><div class="element-atomic-mass">20.18</div></div><div class="element-atomic-symbol">Ne</div><div class="element-atomic-name">Neon</div></div>
         <div class="element element11"><div class="element-atomic-details"><div class="element-atomic-no">11</div><div class="element-atomic-mass">22.99</div></div><div class="element-atomic-symbol">Na</div><div class="element-atomic-name">Sodium</div></div>
         <div class="element element12"><div class="element-atomic-details"><div class="element-atomic-no">12</div><div class="element-atomic-mass">24.3</div></div><div class="element-atomic-symbol">Mg</div><div class="element-atomic-name">Magnesium</div></div>
