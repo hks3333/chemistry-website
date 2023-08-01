@@ -7,7 +7,7 @@ body{
 *, ::before, ::after {
     box-sizing: border-box;
 }
-#topbar { 
+#topbar {
   position: fixed;
   top: 0;
   width: 100%;
@@ -17,7 +17,7 @@ body{
   align-items: center;
   justify-content: space-between;
   height: 80px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-family: 'Share Tech Mono';
   font-size: 40px;
   letter-spacing: 2px;
@@ -28,27 +28,30 @@ body{
   align-items: center;
 }
 .topbar-a {
-  transition: 0.5s;
-  color: rgb(171, 171, 171);
+  transition: 0.3s;
+  color: #ffffff;
   border: none;
   padding: 0 25px 0 8px;
   font-family: 'Roboto';
   font-size: 16px;
   cursor: pointer;
   text-decoration: none;
+  /* border-left: 2px solid white; */
 }
-.topbar-a-3 {
-  color: white;
-  cursor: default;
-}
+
 .topbar-btn > a:hover {
-  color: #ffffff;
+  color: #ffa7a7;
 }
 .logo {
   margin: 0;
+  cursor: pointer;
 }
-.logo > span {
-  color: #4583ff;
+.logo > a {
+  text-decoration: none;
+  color: white;
+}
+.logo > a > span {
+  color: #1DB954;
 }
 
 
@@ -81,7 +84,7 @@ h2{
     margin: 0;
     margin-left: -6px;
 }
-p{
+p {
   font-family:'albert sans';
   font-size: 20px;
 }
