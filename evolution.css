@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&family=Roboto&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 body{
     background: linear-gradient(to right,#062f16,#000000 90%);
     margin: 0;
@@ -188,61 +189,36 @@ p{
   .right {
     left: 50%;
   }
- /* Add arrows to the left container (pointing right) */
-.left::before {
-    padding: 0;
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 78px; /* Decrease this value to reduce the gap */
-    border: medium solid #040404;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent #000000;
-}
+ /* Add arrows to the left container (pointing right) *
 
   
   /* Add arrows to the right container (pointing left) */
-  .right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid rgb(0, 0, 0);
-    border-width: 10px 10px 10px 0;
-    border-color: transparent rgb(0, 0, 0) transparent transparent;
-  }
-  
   /* Fix the circle for containers on the right side */
   .right::after {
     left: -13px;
   }
   
   /* The actual content */
-  .content {
-    
+  .content {  
     height: 40vh;
-    width: 60vh;
+    width: 74vh;
     background-color: rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
+    
     justify-content: space-around;
     align-content: center;
     border-radius: 6px;
     position: relative;
     transition: 0.7s;
     border: 0.5px solid #1DB954;
-
+    color: #ffffff;
+    background: linear-gradient(to right,#000000,#141414 90%);
     
   }
   .h2-content{
     border-radius: 50%;
-    background-color: #1DB954;
+    background: linear-gradient(to right,#1DB954,#13602f 90%);
     height: 120px;
     width: 120px;
     font-size: 9vw;
@@ -250,33 +226,48 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    color:#000000;
     margin: 0;
+    z-index: 1;
+    margin-bottom:20vh;
   }
   
     
-  .content p{
+  .content h1{
     font-family:'albert sans';
-    margin: 20px; 
-    color: #ffffff;
+    
+    margin: 20px;
+    font-size: 2vw; 
+    color: #000000;
+  
   }
   .first-timeline,.second-timeline{
-    font-size: 5vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.9vh;
+    margin-top: -14vh;
   }
   .second-timeline{
-    font-size: 4vh;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.7vh;
   }
   .third-timeline{
-    font-size: 2.5vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -16vh;
+    font-size: 1.9vh;
   }
   .fourth-timeline{
-    font-size: 3.5vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -16vh;
+    font-size: 1.9vh;
   }
-  .fifth-timeiline{
-    font-size: 1vh;
+  .fifth-timeline{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -16vh;
+    font-size: 1.9vh;
   }
   .sixth-timeline{
-    font-size: 3vh;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: -15vh;
+    font-size: 1.9vh;
   }
  
 
