@@ -36,7 +36,7 @@ body {
 }
 .topbar-a {
     transition: 0.3s;
-    color: #ffffff;
+    color: #EBD4CB;
     border: none;
     padding: 0 25px 0 8px;
     font-family: 'Roboto';
@@ -47,7 +47,7 @@ body {
 }
 
 .topbar-btn > a:hover {
-    color: #ffa7a7;
+    color: #ffffff;
 }
 .logo {
     margin: 0;
@@ -55,11 +55,11 @@ body {
 }
 .logo > a {
     text-decoration: none;
-    color: white;
+    color: #1B3022;
 }
-.logo > a > span {
+/* .logo > a > span {
     color: #00ffaa;
-}
+} */
 
 /* Topbar CSS ends */
 

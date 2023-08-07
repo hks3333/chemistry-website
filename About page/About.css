@@ -3,10 +3,15 @@
 
 body{
     background-color: rgb(36, 34, 34);
+    margin: 0;
 }
 
 *, ::before, ::after {
     box-sizing: border-box;
+}
+::selection {
+    background-color: white;
+    color: black;
 }
 /* Topbar begins */
 #topbar { 
@@ -61,11 +66,12 @@ text-align: center;
 height: 500px;
 display: flex;
 justify-content: space-around;
-background-color: blue;
-border-top-left-radius: 5%;
+align-items: center;
+background-color: #ff5851;
 border-bottom-right-radius: 5%;
 }
-h2{
+h2
+{
 font-family:'albert sans';
     font-size: 100px;
     color: #000000;
