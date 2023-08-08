@@ -57,7 +57,7 @@ body{
   margin: 0;
 }
 .logo > span {
-  color: #4583ff;
+  color: #ff5851;
 }
 
 /* Topbar ends */
@@ -140,6 +140,7 @@ font-family:'albert sans';
     position: relative;
     transform: translate(0px,-40px);
     width:150px;
+
     height: 150px;
     border-radius: 50%;
 }
