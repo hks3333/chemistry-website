@@ -35,39 +35,39 @@ const equipmentData = [
     },
     {
         title: "VOLUMETRIC FLASK",
-        description: ["Measures one specific volume, marked by the etched line on the neck", "Used for precise dilutions and preparation of standard solutions.", "Easy to mix solutions, as they have glass stoppers and are designed to be inverted multiple times to mix.", "Size of glass stopper needed is listed on the bottle. Be sure to hold glass stopper while inverting.", "Careful not to fill above the etched mark, see reading the meniscus"],imgSrc: "imgs/.jpeg"
+        description: ["Measures one specific volume, marked by the etched line on the neck", "Used for precise dilutions and preparation of standard solutions.", "Easy to mix solutions, as they have glass stoppers and are designed to be inverted multiple times to mix.", "Size of glass stopper needed is listed on the bottle. Be sure to hold glass stopper while inverting.", "Careful not to fill above the etched mark, see reading the meniscus"], imgSrc: "imgs/VOLUMETRIC_FLASK.jpg"
     },
     {
         title: "PIPETTE",
-        description: ["Pipette involves drawing up a specific volume of liquid into the pipette and then transferring it to another container either by using the pipette’s release mechanism or by blowing it out.", "Used to measure and transfer small volumes of liquids accurately.", "A cylindrical glass or plastic tube that has a narrow end for transferring liquids, and a bulb or other mechanism for drawing up the liquid.", "In making serial dilutions, measuring / dispensing samples and diluted solutions."],imgSrc: "imgs/.jpeg"
+        description: ["Pipette involves drawing up a specific volume of liquid into the pipette and then transferring it to another container either by using the pipette’s release mechanism or by blowing it out.", "Used to measure and transfer small volumes of liquids accurately.", "A cylindrical glass or plastic tube that has a narrow end for transferring liquids, and a bulb or other mechanism for drawing up the liquid.", "In making serial dilutions, measuring / dispensing samples and diluted solutions."],imgSrc: "imgs/PIPET.jpeg"
     },
     {
         title: "BURET",
-        description: ["Used for accurately titrations or dispensing very small quantities of liquids", "Contains a stopcock to control the releaseof the liquid", "White plastic stop cock is open when parallel with the instrument and closed when perpendicular", "When not in use should be stored upside down and open"],imgSrc: "imgs/.jpeg"
+        description: ["Used for accurately titrations or dispensing very small quantities of liquids", "Contains a stopcock to control the releaseof the liquid", "White plastic stop cock is open when parallel with the instrument and closed when perpendicular", "When not in use should be stored upside down and open"], imgSrc: "imgs/buret.jpeg"
     },
     {
         title: "RING STAND",
-        description: ["Ring stands are used to hold glassware in place during an experimental procedure.", "You can attach ring clamps, versatile clamps, or 3-prong clamps (the latter require clamp holders).", "The ring stand can hold a wire gauze or ceramic center that supports containers over a Bunsen burner or other heat sources.", "Allows for the flexible arrangement of different equipment, such as burettes, flasks, beakers, and test tubes, at various heights and positions."],imgSrc: "imgs/.jpeg"
+        description: ["Ring stands are used to hold glassware in place during an experimental procedure.", "You can attach ring clamps, versatile clamps, or 3-prong clamps (the latter require clamp holders).", "The ring stand can hold a wire gauze or ceramic center that supports containers over a Bunsen burner or other heat sources.", "Allows for the flexible arrangement of different equipment, such as burettes, flasks, beakers, and test tubes, at various heights and positions."], imgSrc: "imgs/Ringstand.jpg"
     },
     {
         title: "BURETTE CLAMP",
-        description: ["Used for firmly holding test-tubes, burettes and other glassware in place when performing experiments such as titration.", "For precise positioning of the buret, ensuring accurate and controlled dispensing of liquids.", "The clamp holds the buret in a vertical orientation, which is essential for accurate measurement and uniform flow of the liquid.", "Particularly essential in titration experiments, where precise measurement and controlled liquid flow are critical.", "The use of buret clamps helps ensure that experiments can be repeated accurately, maintaining consistency in results."],imgSrc: "imgs/.jpeg"
+        description: ["Used for firmly holding test-tubes, burettes and other glassware in place when performing experiments such as titration.", "For precise positioning of the buret, ensuring accurate and controlled dispensing of liquids.", "The clamp holds the buret in a vertical orientation, which is essential for accurate measurement and uniform flow of the liquid.", "Particularly essential in titration experiments, where precise measurement and controlled liquid flow are critical.", "The use of buret clamps helps ensure that experiments can be repeated accurately, maintaining consistency in results."], imgSrc: "imgs/Burette_Clamp.jpg"
     },
     {
         title: "UTILITY CLAMP",
-        description: ["Used to hold other glassware onto a ring stand", "Holding objects in place during gluing, soldering, or welding tasks.", "Attaching backgrounds or accessories in photography and video shooting.", "Keeping fabrics taut while sewing or quilting.", "Assembling small parts or components during DIY projects."],imgSrc: "imgs/.jpeg"
+        description: ["Used to hold other glassware onto a ring stand", "Holding objects in place during gluing, soldering, or welding tasks.", "Attaching backgrounds or accessories in photography and video shooting.", "Keeping fabrics taut while sewing or quilting.", "Assembling small parts or components during DIY projects."], imgSrc: "imgs/UTILITY_CLAMP.jpeg"
     },
     {
         title: "FUNNEL",
-        description: ["Used to channel liquids or fine-grained chemicals (powders) into labware with a narrow neck or opening.", "Made of plastic such as polypropylene. Reusable products can be sterilized in an autoclave.", "Used to aide in the transfer of liquids"],imgSrc: "imgs/.jpeg"
+        description: ["Used to channel liquids or fine-grained chemicals (powders) into labware with a narrow neck or opening.", "Made of plastic such as polypropylene. Reusable products can be sterilized in an autoclave.", "Used to aide in the transfer of liquids"], imgSrc: "imgs/FUNNEL.jpeg"
     },
     {
         title: "WATCH GLASS",
-        description: ["A circular concave piece of glass used in chemistry as a surface to evaporate a liquid, to hold solids while being weighed, for heating a small amount of substance, and as a cover for a beaker.", "Used as a lid for beakers.", "Used for observing precipitation and crystallization patterns."],imgSrc: "imgs/.jpeg"
+        description: ["A circular concave piece of glass used in chemistry as a surface to evaporate a liquid, to hold solids while being weighed, for heating a small amount of substance, and as a cover for a beaker.", "Used as a lid for beakers.", "Used for observing precipitation and crystallization patterns."], imgSrc: "imgs/WATCH_GLASS.jpeg"
     },
     {
         title: "Bunsen Burner",
-        description: ["The hottest part of the flame is at the top of the inner blue cone", "Used to heat substances", "To combust substances", "To sterilize objects on high heat."],imgSrc: "imgs/.jpeg"
+        description: ["The hottest part of the flame is at the top of the inner blue cone", "Used to heat substances", "To combust substances", "To sterilize objects on high heat."], imgSrc: "imgs/Bunsen_Burner.webp"
     }
 ];
 
