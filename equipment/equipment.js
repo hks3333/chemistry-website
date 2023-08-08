@@ -95,7 +95,7 @@ equipmentData.forEach((content, ind) => {
     const imgDiv = document.createElement("div");
     imgDiv.className = "img";
     const img = document.createElement("img");
-    img.id = content.title.replace(/\s+/g, "_");
+    // img.id = content.title.replace(/\s+/g, "_");
     img.src = content.imgSrc;
     img.alt = content.title;
     imgDiv.appendChild(img);
