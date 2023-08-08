@@ -80,7 +80,7 @@ body{
 }
 h2{
     font-family:'albert sans';
-    font-size: 100px;
+    font-size: 10vw;
     color: #000000;
     margin: 0;
     margin-left: -6px;
@@ -212,8 +212,8 @@ p {
   .h2-content{
     border-radius: 50%;
     background: linear-gradient(to right,#1DB954,#13602f 90%);
-    height: 120px;
-    width: 120px;
+    height: 7vw;
+    width: 7vw;
     font-size: 9vw;
     text-align: center;
     display: flex;
@@ -233,36 +233,48 @@ p {
     color: #000000;
   
   }
-  .first-timeline,.second-timeline{
+  .first-timeline{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.9vh;
+    font-size: 1vw;
     margin-top: -14vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
   }
   .second-timeline{
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.7vh;
+    font-size: .9vw;
+    margin-top: -14vh;
+    margin-right: 1vw;
+    margin-left: 1vw;
   }
   .third-timeline{
     font-family: 'Montserrat', sans-serif;
     margin-top: -16vh;
-    font-size: 1.9vh;
+    font-size: 1vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
   }
   .fourth-timeline{
     font-family: 'Montserrat', sans-serif;
-    margin-top: -16vh;
-    font-size: 1.9vh;
+    margin-top: -15vh;
+    font-size: 0.9vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
   }
   .fifth-timeline{
     font-family: 'Montserrat', sans-serif;
-    margin-top: -16vh;
-    font-size: 1.9vh;
+    margin-top: -14vh;
+    font-size: 1vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
   }
   .sixth-timeline{
     font-family: 'Montserrat', sans-serif;
     margin-top: -15vh;
-    font-size: 1.9vh;
+    font-size: 1vw;
+    margin-right: 1vw;
+    margin-left: 1vw;
   }
- 
 
   /* Media queries - Responsive timeline on screens less than 600px wide */
   @media screen and (max-width: 1130px) {
@@ -311,5 +323,20 @@ p {
     background-color: rgb(155, 165, 165);
     padding-bottom: 120px;
     box-shadow:10px 10px 20px #444343;
-  }}
+  }
+.image{
+  display: none;
+}
+.first-timeline,.second-timeline,.third-timeline,.fourth-timeline,.fifth-timeline,.sixth-timeline{
+  font-size: 2.3vw;
+}
+h2{
+  font-family:'albert sans';
+  font-size: 10vw;
+  color: #000000;
+  margin: 0;
+  margin-left: -6px;
+}
+}
+
   

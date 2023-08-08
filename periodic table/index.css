@@ -6,7 +6,7 @@ body {
     background-color: rgb(0, 0, 0);
 }
 *, ::before, ::after {
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 ::selection {
     background-color: white;
@@ -72,7 +72,7 @@ body {
     height: 800px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;    
 }
 .periodic-table {
     display: grid;
