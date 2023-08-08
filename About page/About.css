@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&family=Roboto&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;900&family=Roboto&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 body{
-    background-color: rgb(36, 34, 34);
+    background-color: rgb(0, 0, 0);
     margin: 0;
 }
 
@@ -68,7 +70,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 background-color: #ff5851;
-border-bottom-right-radius: 5%;
+border-bottom-right-radius: 10%;
 }
 h2
 {
@@ -83,75 +85,17 @@ font-family:'albert sans';
     display: flex;
     flex-direction: column;
 }
-
-
-.element {
-    width: 55px;
-    height: 56px;
-    padding: 3px;
-    background-color: #EAEFBD;
-    background: rgba(255, 255, 255, 0.2);
-    color: rgb(255, 255, 255);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-family: 'Albert sans';
-    cursor:pointer;
-    transition: 0.1s;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-.element1
+#create
 {
-    background: rgb(7, 198, 7);
-}
-.element2
-{
-    background-color: yellow;
-}
-.element3{
-background-color: rgb(107, 107, 185);
-}
-.element4{
-background-color: rgb(107, 107, 185);
-}
-.element5{
-    background-color: purple;
-
-}
-.element-atomic-details {
-    display: flex;
-    justify-content: space-between;
-    pointer-events: none;
-}
-.element-atomic-no, .element-atomic-mass {
-    font-size: 10px;
-    pointer-events: none;
-}
-.element-atomic-symbol {
-    font-size: 25px;
-    align-self: center;
-    pointer-events: none;
-}
-.element-atomic-name {
-    font-size: 8px;
-    align-self: center;
-    pointer-events: none;
-}
-
-.elename{
-    padding-left: 100px;
-    display: flex;
-    flex-direction: row;
-    gap:2px;
-}
-.creator
-{
-    display: flex;
-    gap:8px;    
-    background-color: rgb(6, 3, 3);
-    display: flex;
-    flex-direction: column;
-    border: 1px solid #1DB954;
+    padding-top: 130px;
+    padding-left: 70px;
+    padding-right: 70px;
+    grid-template-rows: 1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four columns with equal width */
+    gap: 10px;  
+    background-color: rgb(0, 0, 0);
+    border: 1px solid #ff0f03;
 }
 .image-div            
 {
@@ -162,20 +106,69 @@ background-color: rgb(107, 107, 185);
     border-radius: 50%;
     overflow: hidden;
 }
-.image-div > img {
+.image-div > img 
+{
     width: 100%;
 }
-.left
+.men 
 {
-   
-}
-.right
-{
-    padding-inline-start: 1200px;
-    
-}
-.create
-{
+    align-items: center;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width:fixed;
+    background-color: white;
+  padding: 10px;
+  border: 5px solid #1c1616;
+  height:700px;
+  text-align: center;
 }
+
+
+#heading
+{
+    margin-top:130px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    padding-top: 100px;
+    text-align: center ;
+}
+.profileimg>img
+{
+    border:solid 2px #000000;
+    position: relative;
+    transform: translate(0px,-40px);
+    width:150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.men>button{
+
+    width:fit-content;
+    font-family: 'Albert Sans';
+    font-weight: 900;
+    border:none;
+    background-color:white;
+    transition: 0.4s;
+}
+.men>button:hover
+{
+color: red;
+}
+
+.text
+{
+    margin-top:-295px;
+}
+#heading
+{
+    font-family: 'Aboreto';
+    font-size: 70px;
+}
+p{
+    font-family: 'aboreto';
+
+}
+
+
