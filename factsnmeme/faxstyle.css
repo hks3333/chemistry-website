@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
+
+body{
+    margin: 0;
+    background-color: #131313;
+    color: #ffffff;
+}
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+/* Topbar CSS starts */
+#topbar { 
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    font-family: 'Share Tech Mono';
+    font-size: 40px;
+    letter-spacing: 2px;
+    z-index: 99;
+}
+.topbar-btn {
+    display: flex;
+    align-items: center;
+}
+.topbar-a {
+    transition: 0.5s;
+    color: rgb(171, 171, 171);
+    border: none;
+    padding: 0 25px 0 8px;
+    font-family: 'Roboto';
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.topbar-a-1 {
+    color: white;
+    cursor: not-allowed;
+}
+.topbar-btn > a:hover {
+    color: #ffffff;
+}
+.logo {
+    margin: 0;
+}
+.logo > span {
+    color: #4583ff;
+}
+
+    /*Topbar ends*/
+
+
+#main{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#mid
+{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 2px;   
+    align-items: center;
+    width: 800px;
+    z-index: 1;
+}
+#right
+{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    gap:10px;
+    height: 100vh;
+}
+.ele
+{
+    padding-bottom: 20px;
+}
+.ele >img{
+    width: 450px;
+    max-height: 600 px;
+    
+    border: 0.5px solid #4583ff;
+    box-shadow: 0px 0px 12px #4583ff;
+}
+#right>a>img
+{
+    border-radius: 50%; 
+    width: 40px;
+}
+
+
+
+  .image-container {
+    position: relative;
+     /* Adjust the width as needed */
+  }
+
+  
+  
+
+  .action-bar {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .action-bar>button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+  }
+
+  /* Add hover effects if desired */
+  .action-button:hover {
+    opacity: 0.7;
+  }
+  
+  #left
+  {
+    padding-left: 10px;
+    background-color: rgb(6, 6, 6);
+    max-width:400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    gap:80px;
+    display: none;
+
+}
+
+.fact
+{
+    transition: 0.3s;
+    padding: 20px;    
+    font-family: 'roboto';
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    border: 0.5px solid #4583ff;
+    box-shadow: 0px 0px 12px #119d44;
+    cursor: pointer;
+
+}
+
+
+.fact:hover{
+    
+    box-shadow: 0px 0px 22px #4583ff
+  }
