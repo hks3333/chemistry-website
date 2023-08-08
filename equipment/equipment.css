@@ -50,17 +50,22 @@ body {
 }
 
 .topbar-btn>a:hover {
-    color: #ffffff;
+    color: #ffa7a7;
 }
 
 .logo {
     margin: 0;
+    cursor: pointer;
 }
 
-.logo>span {
-    color: #4583ff;
+.logo>a {
+    text-decoration: none;
+    color: white;
 }
 
+.logo>a>span {
+    color: #fbff03;
+}
 /* _____topbar end_______________________________ */
 
 .equipment-main {
