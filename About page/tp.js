@@ -19,13 +19,13 @@ const menData = [
     },
     {
         name: "APN",
-        imageSrc: "rick.jpg",
-        desc: "I am a passionate and dedicated individual with a strong drive for UI designing...",
+        imageSrc: "../Resume_APN/img/prof.jpg",
+        desc: "I am a person interested in cryptography. I am very keen to learn anything new and challenging.",
         link: "../Resume_APN/resume.html"
     }
 ];
 
-const menContainer = document.getElementById("dynamic-men-container");
+const menContainer = document.getElementById("create");
 
 menData.forEach(data => {
     const menElement = document.createElement("div");
