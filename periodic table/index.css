@@ -79,6 +79,7 @@ body {
     grid-template-columns: repeat(18, 60px);
     grid-template-rows: repeat(10, 60px);
     gap: 4px;
+    padding: 20px;
 }
 .element {
     width: 100%;
@@ -139,9 +140,6 @@ body {
     height: 500px;
     z-index: 100;
 }
-.elements-wiki.active {
-    display: block;
-}
 .iframe-container {
     display: flex;
     flex-direction: column;
@@ -150,10 +148,38 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.elements-wiki.active {
+    display: block;
+}
+.iframe-container.anim {
+    max-height: fit-content;
 }
 .xmark {
     margin-bottom: 10px;
     cursor: pointer;
     align-self: flex-end;
     width: 30px;
+}
+
+@media only screen and (max-width: 1250px) {
+    .periodic-table {
+        grid-template-columns: repeat(18, 56px);
+        grid-template-rows: repeat(10, 56px);
+        gap: 3px;
+        padding: 0 0 20px 0;
+        overflow-x: auto;
+    }
+    .element-atomic-no, .element-atomic-mass {
+        font-size: 8px;
+    }
+    .element-atomic-symbol {
+        font-size: 20px;
+    }
+    .element:hover {
+        scale: 160%;
+    }
 }
