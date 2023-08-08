@@ -126,9 +126,10 @@ body {
 .element58, .element90 {grid-column: 4 / 5;}
 
 .elements-wiki {
-    display: none;
-    position: absolute;
-    width: 100vw;
+    display: none; 
+    position: fixed;
+    top: 0;
+    width: 100%;
     height: 100vh;
     z-index: 99;
     backdrop-filter: blur(5px);

@@ -15,11 +15,9 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     }
 
-
-    // for closing iframe when clicked anywhere on sceen
     display.addEventListener('click',closer);
     function closer(event) {
         display.classList.remove('active')
-    }
+    } 
 });
   
