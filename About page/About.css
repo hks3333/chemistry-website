@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&family=Roboto&family=Share+Tech+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+
+body{
+    background-color: rgb(36, 34, 34);
+    margin: 0;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+::selection {
+    background-color: white;
+    color: black;
+}
+/* Topbar begins */
+#topbar { 
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #000000;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  color: rgb(255, 255, 255);
+  font-family: 'Share Tech Mono';
+  font-size: 40px;
+  letter-spacing: 2px;
+  z-index: 99;
+}
+.topbar-btn {
+  display: flex;
+  align-items: center;
+}
+.topbar-a {
+  transition: 0.5s;
+  color: rgb(171, 171, 171);
+  border: none;
+  padding: 0 25px 0 8px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.topbar-a-3 {
+  color: white;
+  cursor: default;
+}
+.topbar-btn > a:hover {
+  color: #ffffff;
+}
+.logo {
+  margin: 0;
+}
+.logo > span {
+  color: #4583ff;
+}
+
+/* Topbar ends */
+#top-cont
+{
+margin-top: 80px;
+text-align: center;
+height: 500px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #ff5851;
+border-bottom-right-radius: 5%;
+}
+h2
+{
+font-family:'albert sans';
+    font-size: 100px;
+    color: #000000;
+    margin: 0;
+    margin-left: -6px;
+}
+#top-text
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.element {
+    width: 55px;
+    height: 56px;
+    padding: 3px;
+    background-color: #EAEFBD;
+    background: rgba(255, 255, 255, 0.2);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Albert sans';
+    cursor:pointer;
+    transition: 0.1s;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.element1
+{
+    background: rgb(7, 198, 7);
+}
+.element2
+{
+    background-color: yellow;
+}
+.element3{
+background-color: rgb(107, 107, 185);
+}
+.element4{
+background-color: rgb(107, 107, 185);
+}
+.element5{
+    background-color: purple;
+
+}
+.element-atomic-details {
+    display: flex;
+    justify-content: space-between;
+    pointer-events: none;
+}
+.element-atomic-no, .element-atomic-mass {
+    font-size: 10px;
+    pointer-events: none;
+}
+.element-atomic-symbol {
+    font-size: 25px;
+    align-self: center;
+    pointer-events: none;
+}
+.element-atomic-name {
+    font-size: 8px;
+    align-self: center;
+    pointer-events: none;
+}
+
+.elename{
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    gap:2px;
+}
+.creator
+{
+    display: flex;
+    gap:8px;    
+    background-color: rgb(6, 3, 3);
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #1DB954;
+}
+.image-div            
+{
+    margin-left: 60px;
+    border: 10px solid hsl(0, 0%, 100%);
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.image-div > img {
+    width: 100%;
+}
+.left
+{
+   
+}
+.right
+{
+    padding-inline-start: 1200px;
+    
+}
+.create
+{
+    display: flex;
+    flex-direction: column;
+}
