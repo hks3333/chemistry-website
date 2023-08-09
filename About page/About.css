@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;900&family=Roboto&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 
 body{
@@ -112,15 +111,16 @@ font-family:'albert sans';
 }
 .men 
 {
+  border-radius: 3%;
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width:fixed;
-    background-color: white;
+    background-color: #ff5851;
   padding: 10px;
-  border: 5px solid #1c1616;
-  height:700px;
+  border: 5px solid #564b4b;
+  height:600px;
   text-align: center;
 }
 
@@ -150,19 +150,32 @@ font-family:'albert sans';
     font-family: 'Albert Sans';
     font-weight: 700;
     border:none;
-    background-color:white;
+    color: white;
+    background-color:#ff5851;
     transition: 0.4s;
     text-decoration:none;
 }
 .men>a:hover
 {
-color: red;
+color: #000000;
+}
+.men>a:visited
+{
+  width:fit-content;
+    font-family: 'Albert Sans';
+    font-weight: 700;
+    border:none;
+    color: white;
+    background-color:#ff5851;
 }
 
 
 .text
 {
-    margin-top:-295px;
+  font-size: 18px;
+  position:relative;
+    margin-top:-130px;
+    font-weight: 700;
 }
 #heading
 {
@@ -173,8 +186,20 @@ p{
     font-family: 'aboreto';
 
 }
-button>a{
-  content: hidden;
+
+.men>.text{
+  font-family: 'aboreto';
+  color: white;
+}
+.men>.Desc{
+  font-family: 'albert sans';
+  font-weight: 200;
+  background-color: #ff5851;
+  color: black;
+  text-align: justify;
+  padding-left: 5px;
+  padding-right: 5px;
+
 }
 
 
