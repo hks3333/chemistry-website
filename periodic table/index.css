@@ -59,6 +59,11 @@ body {
 .logo > a > span {
     color: #4583ff;
 }
+.topbar-btn > img {
+    display: none;
+    width: 30px;
+    cursor: pointer;
+}
 
 /* Topbar CSS ends */
 
@@ -237,5 +242,13 @@ body {
     }
     .element:hover {
         scale: 160%;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    #topbar {
+        font-size: 30px;
+    }
+    .topbar-btn > a {
+        font-size: 12px;
     }
 }

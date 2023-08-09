@@ -6,50 +6,58 @@ body{
     margin: 0;
 }
 *, ::before, ::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-#topbar { 
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #000000;
-  padding: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 80px;
-  color: rgb(255, 255, 255);
-  font-family: 'Share Tech Mono';
-  font-size: 40px;
-  letter-spacing: 2px;
-  z-index: 99;
+#topbar {
+position: fixed;
+top: 0;
+width: 100%;
+background-color: #000000;
+padding: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+height: 80px;
+color: #ffffff;
+font-family: 'Share Tech Mono';
+font-size: 40px;
+letter-spacing: 2px;
+z-index: 99;
 }
 .topbar-btn {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 .topbar-a {
-  transition: 0.5s;
-  color: rgb(171, 171, 171);
-  border: none;
-  padding: 0 25px 0 8px;
-  font-family: 'Roboto';
-  font-size: 16px;
-  cursor: pointer;
-  text-decoration: none;
+transition: 0.3s;
+color: #ffffff;
+border: none;
+padding: 0 25px 0 8px;
+font-family: 'Roboto';
+font-size: 16px;
+cursor: pointer;
+text-decoration: none;
+/* border-left: 2px solid white; */
 }
-.topbar-a-3 {
-  cursor: default;
-}
+
 .topbar-btn > a:hover {
-  color: #ffffff;
+color: #ffa7a7;
 }
 .logo {
-  margin: 0;
+margin: 0;
+cursor: pointer;
+
 }
-.logo > span {
-  color: #4583ff;
+.logo > a {
+text-decoration: none;
+color: white;
+font-family: 'Share Tech Mono';
+font-size: 40px;
+
 }
+.logo > a > span {
+color: #2397e4;
+} 
 
 
 .main1{
@@ -90,8 +98,6 @@ body{
 
 .forms{
     font-family: 'Nunito', sans-serif;
-    margin-left: 3vw;
-    margin-top: 5vh;
 }
 .forms input{
     border-radius: 1%;
@@ -156,7 +162,7 @@ svg:hover{
 }
 .popup{
   font-family: 'Nunito', sans-serif;
-  width: 20vw;
+  width: 400px;
   padding-bottom: 2vw;
   top: 50%;
   left: 50%;
@@ -165,16 +171,20 @@ svg:hover{
   transform: translate(-50%, -50%);
   z-index: 1px;
   text-align: center;
-  border-radius: 2vw;
+  border-radius: 10px;
   visibility: hidden;
   transition: 0.7s;
   border: 1px solid black;
+}
+.popup > img {
+  width: 20px;
 }
 .done{
   border: none;
   background-color: black;
   color: aliceblue;
-  border-radius: 2vw;
+  border-radius: 100px;
+  padding: 10px;
 }
 .done:hover{
   cursor: pointer;
@@ -187,6 +197,8 @@ svg:hover{
 .open-main1{
   filter: blur(8px);
 }
+
+
 @media screen and (max-width: 980px) {
   .emoji svg{
     visibility: hidden;
@@ -208,7 +220,12 @@ svg:hover{
     width: 15vw;
     font-size: 3vw;
   }
-  
+  .forms-header{
+    border-radius: 12px;
+  }
+  .popup {
+    width: 300px;
+  }
 }
 @media screen and (max-width: 390px){
   .img{
@@ -218,8 +235,11 @@ svg:hover{
     margin-left: -1px;
     
   }
+  .forms{
+    border-radius: 12px;
+  }
   .forms p{
-    font-size: 10px;
+    font-size: 12px;
   }
   .submit{
     height: 10vw;
