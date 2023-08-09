@@ -1,37 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&family=Roboto&family=Share+Tech+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap');
 
-@media (max-width: 768px) {
-    .TABLE-OF-CONTENTS {
-        position: static;
-        margin: 0 auto;
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-        padding: 20px 0;
-        background-color: #313131;
-        border-bottom: 1px solid white;
-        padding-bottom: 10px;
-    }
-    .TABLE-OF-CONTENTS>ul{ 
-        list-style: none;
-        padding: 0;
-        margin: 0;
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    .TABLE-OF-CONTENTS>h3,
-    .TABLE-OF-CONTENTS>h5,
-    .TABLE-OF-CONTENTS>ul>li {
-        margin: 0;
-        padding-top: 10px;
-        padding-right: 10px;
-        font-size: 16px;
-        color: white;
-    }
-}
-
 body {
     margin: 0;
     background-color: #313131;
@@ -75,6 +44,7 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
+
 .topbar-a-2 {
     color: white;
     cursor: default;
@@ -97,6 +67,7 @@ body {
 .logo>a>span {
     color: #fbff03;
 }
+
 /* _____topbar end_______________________________ */
 
 .equipment-main {
@@ -176,4 +147,24 @@ body {
 .img>img {
     width: 250px;
     border-radius: 20px;
+}@media only screen and (max-width: 768px) {
+    .TABLE-OF-CONTENTS {
+        display: none;
+        /* position: static;
+        top: 0;
+        transform: none;
+        margin-left: 0; 
+        margin: 0 auto;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 20px 0;
+        background-color: #f84242;
+        border-bottom: 1px solid white;
+        padding-bottom: 10px; */
+    }
+    .all-contents {
+        margin-left: 0;
+    }
 }
