@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500&family=Roboto&family=Share+Tech+Mono&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
 body {
     margin: 0;
     padding: 0;
@@ -57,11 +60,9 @@ body {
     text-decoration: none;
     color: #ffffff;
 }
-/* .logo > a > span {
-    color: #00ffaa;
-} */
-
 /* Topbar CSS ends */
+
+
 .landing {
     display: flex;
     flex-direction: column;
@@ -72,12 +73,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     width: 100%;
-    height: 70vh;
+    height: auto;
     margin-top: 80px;
     font-family: 'Albert sans';
-    padding-left: 30px;
-    padding-right: 60px;
+    padding: 30px 60px 30px 30px;
     background-color: rgb(69, 131, 255);
 }
 .landing-1-text > h1 {
@@ -89,7 +90,7 @@ body {
     font-size: 18px;
 }
 .landing-1 > img {
-    height: 90%;   
+    height: 450px;   
 }
 
 .landing-2 {
@@ -121,7 +122,7 @@ body {
     backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.landing-2-content > button {
+.landing-2-content > a > button {
     height: 50px;
     width: 200px;
     font-size: 20px;
@@ -131,7 +132,7 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
-.landing-2-content > button:hover {
+.landing-2-content > a > button:hover {
     background-color: #000000;
     color: white;
 }
