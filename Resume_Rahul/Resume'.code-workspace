@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../uid"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Resume'"
+	}
+}

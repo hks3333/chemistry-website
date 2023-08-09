@@ -98,6 +98,7 @@ color: #2397e4;
 
 .forms{
     font-family: 'Nunito', sans-serif;
+    margin-left: 12px;
 }
 .forms input{
     border-radius: 1%;
