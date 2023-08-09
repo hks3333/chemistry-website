@@ -144,19 +144,21 @@ font-family:'albert sans';
     height: 150px;
     border-radius: 50%;
 }
-.men>button{
+.men>a{
 
     width:fit-content;
     font-family: 'Albert Sans';
-    font-weight: 900;
+    font-weight: 700;
     border:none;
     background-color:white;
     transition: 0.4s;
+    text-decoration:none;
 }
-.men>button:hover
+.men>a:hover
 {
 color: red;
 }
+
 
 .text
 {
@@ -170,6 +172,9 @@ color: red;
 p{
     font-family: 'aboreto';
 
+}
+button>a{
+  content: hidden;
 }
 
 
