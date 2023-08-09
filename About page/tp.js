@@ -2,7 +2,7 @@ const menData = [
     {
         name: "Naveed",
         imageSrc: "rick.jpg",
-        desc: "I am a passionate and dedicated individual with a strong drive for UI designing...",
+        desc: "I am a passionate and dedicated individual with a strong drive for UI designing",
         link: "../Resume_naveed/Res.html"
     },
     {
